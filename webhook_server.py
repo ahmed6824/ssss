@@ -11,7 +11,7 @@ API_SECRET = os.getenv("BINANCE_API_SECRET")
 
 # Initialize Binance Futures client
 client = Client(API_KEY, API_SECRET)
-client.FUTURES_URL = 'https://fapi.binance.com'
+client.FUTURES_URL = 'https://binance-docs.github.io/apidocs/futures/en/'
 
 # Symbol and leverage (customize if needed)
 SYMBOL = "SOLUSDT"
